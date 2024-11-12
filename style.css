@@ -1,1 +1,81 @@
+/* Propiedades para el body */
+body{
+    background-color: #e0cec9; /*Color de fondo */
+    display: flex;  /*El tipo de visualizacion del elemento*/
+    flex-direction: column;
+    min-height: 100vh;
+    margin: 0; /*Margen */
+    overflow-x: hidden; /*Quitar la barra de desplazamiento horizontal*/
+}
 
+
+.container{
+    background-color: #e7e7d7;
+    max-width: 600px; /*Ancho maximo*/
+    border-radius: 10px; /*Redondeo del borde*/
+    display: block; 
+    margin: 30px auto 50px auto; /*margin: auto para colocar el elemento al centro*/
+    text-align: center; /* Ubicar el texto al centro*/
+    padding: 10px; /*Espaciado entre el borde y los elementos del contenedor*/
+    flex: 1;
+}
+
+h1{
+    color: rgb(102, 2, 35);
+}
+
+p{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin: 0;
+}
+
+img{
+    border-radius: 10px;
+}
+
+textarea, input{
+    margin: 10px auto;
+    padding: 10px;
+    resize: none;
+    width: 80%;
+    border-radius: 10px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+
+input[type="submit"]{
+    padding: 5px;
+    margin-top: 0;
+    margin-left: auto;
+    margin-right: auto;
+    border: none;
+    background-color: #d679b7;
+    display: block;
+}
+
+input[type="submit"]:hover{
+    background-color: #d15e9c;
+}
+
+footer{
+    margin: auto;
+    padding: 10px;
+    width: 100%; /*Ancho maximo de la pagina = 100%*/
+    background-color: #1c2d22;
+    color:aliceblue;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+footer a{
+    color: azure;
+}
+
+footer a:hover{
+    color:#e5b5bd;
+}
+
+
+footer p{
+    margin: 0;
+    text-align: center;
+}
